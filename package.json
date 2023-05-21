@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "✨React-Course✨",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirajkhan1221/React-Course.git"
+  },
+  "author": "Siraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirajkhan1221/React-Course/issues"
+  },
+  "homepage": "https://github.com/sirajkhan1221/React-Course#readme",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
