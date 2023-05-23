@@ -1,0 +1,25 @@
+#heading {
+  color: red;
+}
+
+.userIcon {
+  width: 50px;
+  cursor: pointer;
+  margin: 10px 20px 0 0;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+  margin: 10px 40px 0 10px;
+}
+
+.container {
+  width: auto;
+  background-color: #0ff;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

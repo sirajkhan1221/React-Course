@@ -4,7 +4,9 @@
   "description": "✨React-Course✨",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/sirajkhan1221/React-Course#readme",
   "dependencies": {
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
   }
 }

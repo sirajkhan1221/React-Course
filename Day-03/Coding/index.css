@@ -1,0 +1,23 @@
+#heading {
+  color: red;
+}
+
+.userIcon {
+  width: 50px;
+  margin: 10px 20px 0 0;
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+  margin: 10px 40px 0 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  width: auto;
+}
