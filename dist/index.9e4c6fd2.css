@@ -1,25 +1,89 @@
-#heading {
-  color: red;
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
 }
 
-.userIcon {
-  width: 50px;
-  cursor: pointer;
-  margin: 10px 20px 0 0;
-}
-
-.logo {
-  width: 50px;
-  cursor: pointer;
-  margin: 10px 40px 0 10px;
-}
-
-.container {
-  width: auto;
-  background-color: #0ff;
+.Header {
+  background-color: purple;
   justify-content: space-between;
   align-items: center;
   display: flex;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.nav-items > ul {
+  display: flex;
+}
+
+.Search-box {
+  margin-top: 20px;
+}
+
+.nav-items > ul > li {
+  margin-right: 10px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.restaurent-container {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px 20px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.restaurent-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex-direction: column;
+  display: flex;
+}
+
+.restaurent-card:hover {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.restaurent-card .restaurent-card > img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.name {
+  color: #333;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cuisines {
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.details-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.delivery-time {
+  font-size: 12px;
+}
+
+.avg-ratings, .price, .delivery-time {
+  text-align: center;
+  color: #888;
+  flex-basis: 33%;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
